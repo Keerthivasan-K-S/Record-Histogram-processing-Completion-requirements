@@ -87,7 +87,7 @@ plt.title('Original Grayscale Image')
 plt.axis('off')
 ```
 ##  Output
-<img width="566" height="397" alt="image" src="https://github.com/user-attachments/assets/518a1bc7-c1e9-444e-abc7-9dbf6b47987f" />
+<img width="497" height="357" alt="image" src="https://github.com/user-attachments/assets/b8803864-ee4f-45d1-ab86-762fa2eb517a" />
 
 #### Histogram of Grayscale Image
 ```py
@@ -97,7 +97,7 @@ plt.title('Original Histogram')
 plt.xlim([0, 256])
 ```
 ## Output 
-<img width="586" height="467" alt="image" src="https://github.com/user-attachments/assets/d838bbd4-c3e8-437d-ab15-ac05cf64b86a" />
+<img width="577" height="457" alt="image" src="https://github.com/user-attachments/assets/4798caa4-a792-4af9-a190-e1e44354b9b9" />
 
 #### Histogram Equalization of Grayscale Image
 ```py
@@ -110,6 +110,9 @@ plt.axis('off')
 ### Output:
 <img width="558" height="405" alt="image" src="https://github.com/user-attachments/assets/ca156826-a51a-4a32-8220-5981028aeba6" />
 
+### Equalized Image
+<img width="495" height="356" alt="image" src="https://github.com/user-attachments/assets/db8aa093-0b9a-4c18-8387-ec32da3fbf84" />
+
 ### Equalized Histogram 
 ```py
 hist_original = cv2.calcHist([equalized_image], [0], None, [256], [0, 256])
@@ -119,7 +122,7 @@ plt.xlim([0, 256])
 ```
 
 ## Output:
-<img width="597" height="465" alt="image" src="https://github.com/user-attachments/assets/1dbe6357-8920-47b8-9edc-efa33c7a1872" />
+<img width="568" height="461" alt="image" src="https://github.com/user-attachments/assets/2f6b20e3-0df5-4a5a-96df-8587d70df72c" />
 
 
 ### Grayscale Histogram Equalization
