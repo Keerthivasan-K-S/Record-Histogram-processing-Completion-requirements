@@ -108,9 +108,6 @@ plt.title('Equalized Image')
 plt.axis('off')
 ```
 ### Output:
-<img width="558" height="405" alt="image" src="https://github.com/user-attachments/assets/ca156826-a51a-4a32-8220-5981028aeba6" />
-
-### Equalized Image
 <img width="495" height="356" alt="image" src="https://github.com/user-attachments/assets/db8aa093-0b9a-4c18-8387-ec32da3fbf84" />
 
 ### Equalized Histogram 
